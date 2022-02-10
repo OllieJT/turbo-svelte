@@ -12,7 +12,7 @@ export const routes: Record<string, LINK> = {
 export const allRoutes = Object.values(routes);
 
 export function isActiveRoute(route: LINK) {
-	return page.subscribe((current) => current.path === route.href);
+	return page.subscribe((current) => current.url.pathname === route.href);
 }
 
 interface Props {
