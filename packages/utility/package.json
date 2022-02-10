@@ -1,0 +1,9 @@
+{
+	"name": "utility",
+	"version": "0.0.0",
+	"private": true,
+	"main": "index.ts",
+	"files": [
+		"handle-date.ts"
+	]
+}
