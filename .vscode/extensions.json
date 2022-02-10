@@ -1,0 +1,15 @@
+{
+	// See http://go.microsoft.com/fwlink/?LinkId=827846
+	// for the documentation about the extensions.json format
+	"recommendations": [
+		"aaron-bond.better-comments",
+		"ardenivanov.svelte-intellisense",
+		"bradlc.vscode-tailwindcss",
+		"csstools.postcss",
+		"esbenp.prettier-vscode",
+		"gruntfuggly.todo-tree",
+		"mikestead.dotenv",
+		"paradigm-sy.vscode-css-variables-autocomplete",
+		"svelte.svelte-vscode"
+	]
+}

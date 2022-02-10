@@ -1,0 +1,46 @@
+{
+	"files.exclude": {
+		"**/*-lock.json": true,
+		"**/*.map": true,
+		"**/.cache": true,
+		"**/.DS_Store": true,
+		"**/.gitattributes": true,
+		"**/*.Identifier": true,
+		"**/node_modules": true,
+
+		"**/.svelte-kit": true,
+		"**/dist/": true,
+		"**/.checksums": true
+	},
+	"files.associations": {
+		"**/*.env*": "dotenv",
+		"**/*.svx": "mdx",
+		"**/*.md": "mdx"
+	},
+	"files.watcherExclude": {
+		"**/node_modules": true,
+		"**/.svelte-kit": true
+	},
+	"cSpell.words": [
+		"codegen",
+		"datetime",
+		"Dribbble",
+		"fieldsets",
+		"fortawesome",
+		"frontmatter",
+		"globby",
+		"groq",
+		"heroicons",
+		"imagetools",
+		"portabletext",
+		"remixicon",
+		"richtext",
+		"semibold",
+		"tailwindcss",
+		"xxtzgn"
+	],
+	"search.exclude": {
+		"**/*.log": true,
+		"**/README.md": true
+	}
+}

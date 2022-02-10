@@ -1,0 +1,25 @@
+{
+	"name": "inqling",
+	"version": "0.0.0",
+	"private": true,
+	"bin": "./bin/cli.cjs",
+	"type": "module",
+	"workspaces": [
+		"apps/*",
+		"packages/*"
+	],
+	"scripts": {
+		"build": "turbo run build",
+		"dev": "turbo run dev --parallel",
+		"lint": "turbo run lint",
+		"check": "turbo run check",
+		"ts": "turbo run ts --parallel",
+		"codegen": "turbo run codegen",
+		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
+	},
+	"devDependencies": {
+		"prettier-plugin-tailwindcss": "^0.1.7",
+		"prettier": "^2.5.1",
+		"turbo": "latest"
+	}
+}
