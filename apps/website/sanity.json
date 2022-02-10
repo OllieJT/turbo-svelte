@@ -1,0 +1,12 @@
+{
+	"root": true,
+	"project": {
+		"name": "inqling-backend"
+	},
+	"api": {
+		"projectId": "8qj7uybi",
+		"dataset": "production"
+	},
+	"plugins": [],
+	"parts": []
+}
