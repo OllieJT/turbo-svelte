@@ -24,9 +24,9 @@
 				class="group serif-content flex flex-row items-center justify-between overflow-x-hidden rounded-xl px-8 py-3 text-2xl leading-none text-zinc-500 hover:bg-purple-50 hover:text-purple-600 active:text-purple-600"
 			>
 				<span>{link.label}</span>
-				<span class:active={isActive} class="opacity-0 active:opacity-100"
-					><ArrowRight /></span
-				>
+				<span class:active={isActive} class="opacity-0 active:opacity-100">
+					<ArrowRight />
+				</span>
 			</a>
 		</li>
 	{/each}

@@ -45,5 +45,3 @@
 		/>
 	{/if}
 </label>
-
-<style lang="postcss"></style>

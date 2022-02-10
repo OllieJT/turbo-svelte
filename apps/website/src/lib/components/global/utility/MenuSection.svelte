@@ -15,5 +15,3 @@
 		<slot />
 	</div>
 </section>
-
-<style lang="postcss"></style>

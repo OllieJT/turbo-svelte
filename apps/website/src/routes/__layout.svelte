@@ -10,4 +10,4 @@
 
 <Menu />
 
-<slot />
+<slot>123</slot>

@@ -13,6 +13,3 @@
 		Inqling
 	</span>
 </a>
-
-<style lang="postcss">
-</style>

@@ -1,7 +1,6 @@
-/* Write your global styles here, in PostCSS syntax */
 @tailwind base;
 @layer base {
-	*/ html {
+	html {
 		scroll-behavior: smooth;
 		font-feature-settings: "calt" 1, "ccmp" 1, "kern" 1, "case" 0, "cpsp" 1,
 			"dlig" 0, "frac" 1, "dnom" 0, "numr" 0, "salt" 0, "tnum" 1, "zero" 1,
@@ -13,38 +12,6 @@
 
 @tailwind components;
 @layer components {
-	.base-layer {
-		@apply border-zinc-200 bg-white text-zinc-600 ring-zinc-200 active:border-purple-400 active:bg-purple-100 active:text-purple-600 active:ring-purple-400;
-	}
-
-	.serif-title {
-		@apply font-serif font-medium;
-	}
-	.serif-content {
-		@apply font-serif font-normal;
-	}
-
-	.action-text {
-		@apply inline-flex w-max items-center justify-center gap-2 border-2 p-3 font-semibold leading-none;
-	}
-	.action-text-default {
-		@apply action-text border-purple-100 bg-white/80 p-3 text-purple-600 hover:border-purple-400 hover:bg-purple-100 hover:text-purple-800;
-	}
-	.action-text-highlight {
-		@apply action-text border-purple-800 bg-purple-800 text-purple-200 hover:border-purple-600 hover:bg-purple-600 hover:text-white;
-	}
-
-	.inline-link {
-		@apply w-max text-purple-500 hover:text-purple-800;
-	}
-
-	.input-text {
-		@apply min-h-interactive rounded-md border-2 border-purple-400 bg-white text-purple-500 ring-purple-400 placeholder:text-purple-900/60 valid:text-emerald-500 invalid:border-red-500 invalid:text-red-500 invalid:ring-red-500 focus:border-purple-500 focus:text-purple-600 focus:ring-purple-500;
-	}
-
-	.as-social-card {
-		@apply my-6 mx-auto max-w-[480px] overflow-hidden rounded-md border border-zinc-200 bg-white shadow-sm ring-0 ring-transparent transition-all ease-out hover:border-purple-600 hover:shadow-2xl hover:shadow-purple-300 hover:ring hover:ring-purple-600;
-	}
 }
 
 @tailwind utilities;
