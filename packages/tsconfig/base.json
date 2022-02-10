@@ -1,0 +1,35 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"display": "Default",
+	"compilerOptions": {
+		"incremental": true,
+		"composite": false,
+		"declaration": true,
+		"declarationMap": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"inlineSources": false,
+		"isolatedModules": true,
+		"moduleResolution": "node",
+		"preserveWatchOutput": true,
+		"skipLibCheck": true,
+		"resolveJsonModule": true,
+		"noEmit": true,
+		"allowJs": true,
+		"checkJs": true,
+
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"importsNotUsedAsValues": "remove",
+		"sourceMap": true,
+
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"noImplicitAny": true,
+		"noImplicitThis": true
+	},
+	"exclude": ["node_modules"],
+	"include": ["../../@types/**.ts"]
+}
